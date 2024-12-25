@@ -14,7 +14,6 @@ export default function CreatePostModal() {
     attachment: ''
   });
 
-  const [base64, setBase64] = useState('');
   // const [fileName, setFileName] = useState('');
 
   const dispatch = useDispatch();
@@ -36,7 +35,6 @@ export default function CreatePostModal() {
       // Chuyển file sang Base64
       const reader = new FileReader();
       reader.onload = () => { 
-        setBase64(reader.result);
         setData(({ ...data, attachment: reader.result })); 
       };
       reader.onerror = (error) => {
