@@ -48,7 +48,6 @@ export default function CreatePostModal() {
 
   const onSubmit = useCallback(() => {
     console.log(data);
-    console.log(base64);
     dispatch(createPost.createPostRequest(data));
     onClose();
   }, [data, dispatch, onClose]);
