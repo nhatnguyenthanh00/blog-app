@@ -1,4 +1,11 @@
-This MERN application simple a blog-website.
-Main function is view list of blog and create new blog include upload image file.
-You can flow the link to test:
+# Blog Website
+
+This is a MERN stack application for a simple blog website.
+
+# Main function:
++ 📝 View list of blog
++ ✍️ Create new blog, include upload image file
++ ❤️ Like specific blogs
+
+#Live demo:
 https://blog-app-5ecb1.web.app/
